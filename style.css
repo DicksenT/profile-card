@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Kalnia:wght@400;500;700&family=Kumbh+Sans:wght@400;700&family=Lato:wght@400;700&family=Poppins:wght@200;400;600&family=Roboto:wght@300;400;500;700;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+}
+.container{
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 14px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 20px;
+}
+.top{
+    width: 300px;
+}
+.pattern{
+    width: 300px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.bottom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.circle{
+    background-color: white;
+    width: 92px;
+    height: 92px;
+    border-radius: 46px;
+    position: absolute;
+    top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Profile{
+    width: 80px;
+    border-radius: 40px;
+}
+.datas{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid black;
+    padding-top: 12px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.bold{
+    font-weight: 700;
+    text-align: center;
+}
+.name{
+    position: relative;
+    top: 40px;
+    font-size: 18px;
+}
+.location{
+    text-align: center;
+}
+.blur{
+    opacity: 0.5;
+}
+.bg{
+    position: absolute;
+}
+.bgtop{
+    width: 700px;
+    top: -300px;
+    left: -100px;
+}
+.bgbot{
+    width: 700px;
+    bottom: -400px;
+    right: -100px;
+}
